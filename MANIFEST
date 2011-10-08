@@ -19,6 +19,11 @@ t/005-load-optional.t
 t/006-returned-error.t
 t/007-first-existing.t
 t/008-gvstash-bug.t
+t/009-invalid-module-name.t
+t/010-isa-false-positive.t
+t/lib/Class/Load/Error/DieAfterBeginIsa.pm
+t/lib/Class/Load/Error/DieAfterIsa.pm
+t/lib/Class/Load/Error/SyntaxErrorAfterIsa.pm
 t/lib/Class/Load/OK.pm
 t/lib/Class/Load/Stash.pm
 t/lib/Class/Load/Stash/Sub.pm

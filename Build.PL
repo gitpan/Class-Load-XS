@@ -6,27 +6,27 @@ use Module::Build 0.3601;
 
 
 my %module_build_args = (
-  'build_requires' => {
-    'Module::Build' => '0.3601',
-    'Test::More' => '0.88'
+  "build_requires" => {
+    "Module::Build" => "0.3601",
+    "Test::More" => "0.88"
   },
-  'configure_requires' => {
-    'Module::Build' => '0.3601'
+  "configure_requires" => {
+    "Module::Build" => "0.3601"
   },
-  'dist_abstract' => 'XS implementation of parts of Class::Load',
-  'dist_author' => [
-    'Dave Rolsky <autarch@urth.org>'
+  "dist_abstract" => "XS implementation of parts of Class::Load",
+  "dist_author" => [
+    "Dave Rolsky <autarch\@urth.org>"
   ],
-  'dist_name' => 'Class-Load-XS',
-  'dist_version' => '0.01',
-  'license' => 'artistic_2',
-  'module_name' => 'Class::Load::XS',
-  'recommends' => {},
-  'recursive_test_files' => 1,
-  'requires' => {
-    'Class::Load' => '0.07'
+  "dist_name" => "Class-Load-XS",
+  "dist_version" => "0.02",
+  "license" => "artistic_2",
+  "module_name" => "Class::Load::XS",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
+    "Class::Load" => "0.11"
   },
-  'script_files' => []
+  "script_files" => []
 );
 
 

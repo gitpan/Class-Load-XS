@@ -1,6 +1,6 @@
 package Class::Load::XS;
 {
-  $Class::Load::XS::VERSION = '0.01';
+  $Class::Load::XS::VERSION = '0.02';
 }
 
 use strict;
@@ -28,7 +28,7 @@ Class::Load::XS - XS implementation of parts of Class::Load
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

@@ -8,6 +8,7 @@ use Module::Build 0.3601;
 my %module_build_args = (
   "build_requires" => {
     "Module::Build" => "0.3601",
+    "Test::Fatal" => 0,
     "Test::More" => "0.88"
   },
   "configure_requires" => {
@@ -18,7 +19,7 @@ my %module_build_args = (
     "Dave Rolsky <autarch\@urth.org>"
   ],
   "dist_name" => "Class-Load-XS",
-  "dist_version" => "0.02",
+  "dist_version" => "0.03",
   "license" => "artistic_2",
   "module_name" => "Class::Load::XS",
   "recommends" => {},

@@ -31,6 +31,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Fatal" : 0,
             "Test::More" : "0.88"
          }
       }
@@ -47,6 +48,6 @@
          "web" : "http://git.urth.org/Class-Load-XS.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

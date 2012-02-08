@@ -1,6 +1,6 @@
 package Class::Load::XS;
 {
-  $Class::Load::XS::VERSION = '0.03';
+  $Class::Load::XS::VERSION = '0.04';
 }
 
 use strict;
@@ -28,7 +28,7 @@ Class::Load::XS - XS implementation of parts of Class::Load
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -45,7 +45,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2011 by Dave Rolsky.
+This software is Copyright (c) 2012 by Dave Rolsky.
 
 This is free software, licensed under:
 

@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Class-Load-XS,
-version 0.03:
+version 0.04:
 
   XS implementation of parts of Class::Load
 
-This software is Copyright (c) 2011 by Dave Rolsky.
+This software is Copyright (c) 2012 by Dave Rolsky.
 
 This is free software, licensed under:
 

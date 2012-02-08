@@ -7,9 +7,14 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
+    "Class::Load" => 0,
     "Module::Build" => "0.3601",
+    "Module::Implementation" => "0.04",
     "Test::Fatal" => 0,
-    "Test::More" => "0.88"
+    "Test::More" => "0.88",
+    "Test::Requires" => 0,
+    "constant" => 0,
+    "version" => 0
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -19,13 +24,16 @@ my %module_build_args = (
     "Dave Rolsky <autarch\@urth.org>"
   ],
   "dist_name" => "Class-Load-XS",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "artistic_2",
   "module_name" => "Class::Load::XS",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Class::Load" => "0.11"
+    "Class::Load" => "0.15",
+    "XSLoader" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
   "script_files" => []
 );

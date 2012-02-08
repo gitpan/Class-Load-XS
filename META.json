@@ -4,7 +4,7 @@
       "Dave Rolsky <autarch@urth.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
    "license" : [
       "artistic_2"
    ],
@@ -26,13 +26,21 @@
       },
       "runtime" : {
          "requires" : {
-            "Class::Load" : "0.11"
+            "Class::Load" : "0.15",
+            "XSLoader" : 0,
+            "strict" : 0,
+            "warnings" : 0
          }
       },
       "test" : {
          "requires" : {
+            "Class::Load" : 0,
+            "Module::Implementation" : "0.04",
             "Test::Fatal" : 0,
-            "Test::More" : "0.88"
+            "Test::More" : "0.88",
+            "Test::Requires" : 0,
+            "constant" : 0,
+            "version" : 0
          }
       }
    },
@@ -48,6 +56,6 @@
          "web" : "http://git.urth.org/Class-Load-XS.git"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 

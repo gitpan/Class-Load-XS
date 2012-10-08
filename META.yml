@@ -27,4 +27,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Class-Load-XS
   repository: git://git.urth.org/Class-Load-XS.git
-version: 0.05
+version: 0.06

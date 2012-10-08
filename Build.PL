@@ -23,7 +23,7 @@ my %module_build_args = (
     "Dave Rolsky <autarch\@urth.org>"
   ],
   "dist_name" => "Class-Load-XS",
-  "dist_version" => "0.05",
+  "dist_version" => "0.06",
   "license" => "artistic_2",
   "module_name" => "Class::Load::XS",
   "recommends" => {},

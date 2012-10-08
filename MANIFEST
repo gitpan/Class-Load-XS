@@ -23,6 +23,8 @@ t/009-invalid-module-name.t
 t/010-isa-false-positive.t
 t/011-without-xs.t
 t/012-without-implementation.t
+t/013-errors.t
+t/014-weird-constants.t
 t/lib/Class/Load/Error/DieAfterBeginIsa.pm
 t/lib/Class/Load/Error/DieAfterIsa.pm
 t/lib/Class/Load/Error/SyntaxErrorAfterIsa.pm

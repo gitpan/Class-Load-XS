@@ -2,8 +2,8 @@ package Class::Load::XS;
 BEGIN {
   $Class::Load::XS::AUTHORITY = 'cpan:SARTAK';
 }
-# git description: v0.06-8-ga7f9f53
-$Class::Load::XS::VERSION = '0.07';
+# git description: v0.07-5-gd41f383
+$Class::Load::XS::VERSION = '0.08';
 
 use strict;
 use warnings;
@@ -34,7 +34,7 @@ Class::Load::XS - XS implementation of parts of Class::Load
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

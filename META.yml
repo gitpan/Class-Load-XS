@@ -15,7 +15,6 @@ build_requires:
   version: '0'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
-  Module::Build::Tiny: '0.034'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.133380'
 license: artistic_2
@@ -32,7 +31,7 @@ no_index:
 provides:
   Class::Load::XS:
     file: lib/Class/Load/XS.pm
-    version: '0.07'
+    version: '0.08'
 requires:
   Class::Load: '0.20'
   XSLoader: '0'
@@ -45,7 +44,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Class-Load-XS
   homepage: https://github.com/moose/Class-Load-XS
   repository: https://github.com/moose/Class-Load-XS.git
-version: '0.07'
+version: '0.08'
 x_Dist_Zilla:
   perl:
     version: '5.019008'
@@ -136,10 +135,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::PPPort
       name: PPPort
       version: '0.006'
-    -
-      class: Dist::Zilla::Plugin::PruneFiles
-      name: PruneFiles
-      version: '5.013'
     -
       class: Dist::Zilla::Plugin::MetaResources
       name: MetaResources
@@ -389,10 +384,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@Author::ETHER/MakeMaker'
       version: '5.013'
-    -
-      class: Dist::Zilla::Plugin::ModuleBuildTiny
-      name: '@Author::ETHER/ModuleBuildTiny'
-      version: '0.006'
     -
       class: Dist::Zilla::Plugin::InstallGuide
       name: '@Author::ETHER/InstallGuide'

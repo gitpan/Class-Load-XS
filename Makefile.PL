@@ -14,8 +14,7 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Dave Rolsky <autarch\@urth.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30",
-    "Module::Build::Tiny" => "0.034"
+    "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Class-Load-XS",
   "EXE_FILES" => [],
@@ -39,7 +38,7 @@ my %WriteMakefileArgs = (
     "lib" => 0,
     "version" => 0
   },
-  "VERSION" => "0.07",
+  "VERSION" => "0.08",
   "test" => {
     "TESTS" => "t/*.t"
   }

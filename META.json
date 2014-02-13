@@ -24,13 +24,12 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30",
-            "Module::Build::Tiny" : "0.034"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "develop" : {
          "recommends" : {
-            "Dist::Zilla::PluginBundle::Author::ETHER" : "0.049"
+            "Dist::Zilla::PluginBundle::Author::ETHER" : "0.050"
          },
          "requires" : {
             "Dist::Zilla" : "5.013",
@@ -39,10 +38,8 @@
             "Dist::Zilla::Plugin::GithubMeta" : "0",
             "Dist::Zilla::Plugin::MakeMaker" : "0",
             "Dist::Zilla::Plugin::MetaResources" : "0",
-            "Dist::Zilla::Plugin::ModuleBuildTiny" : "0.004",
             "Dist::Zilla::Plugin::PPPort" : "0",
             "Dist::Zilla::Plugin::Prereqs" : "0",
-            "Dist::Zilla::Plugin::PruneFiles" : "0",
             "Dist::Zilla::Plugin::SurgicalPodWeaver" : "0",
             "Dist::Zilla::PluginBundle::Author::ETHER" : "0",
             "ExtUtils::MakeMaker::Dist::Zilla::Develop" : "0",
@@ -91,7 +88,7 @@
    "provides" : {
       "Class::Load::XS" : {
          "file" : "lib/Class/Load/XS.pm",
-         "version" : "0.07"
+         "version" : "0.08"
       }
    },
    "release_status" : "stable",
@@ -109,7 +106,7 @@
       "x_IRC" : "irc://irc.perl.org/#moose",
       "x_MailingList" : "http://lists.perl.org/list/moose.html"
    },
-   "version" : "0.07",
+   "version" : "0.08",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019008"
@@ -224,11 +221,6 @@
             "class" : "Dist::Zilla::Plugin::PPPort",
             "name" : "PPPort",
             "version" : "0.006"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::PruneFiles",
-            "name" : "PruneFiles",
-            "version" : "5.013"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaResources",
@@ -551,11 +543,6 @@
             "class" : "Dist::Zilla::Plugin::MakeMaker",
             "name" : "@Author::ETHER/MakeMaker",
             "version" : "5.013"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::ModuleBuildTiny",
-            "name" : "@Author::ETHER/ModuleBuildTiny",
-            "version" : "0.006"
          },
          {
             "class" : "Dist::Zilla::Plugin::InstallGuide",

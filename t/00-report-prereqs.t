@@ -45,13 +45,12 @@ my %exclude = map {; $_ => 1 } qw(
 my $static_prereqs = do { my $x = {
        'configure' => {
                         'requires' => {
-                                        'ExtUtils::MakeMaker' => '6.30',
-                                        'Module::Build::Tiny' => '0.034'
+                                        'ExtUtils::MakeMaker' => '6.30'
                                       }
                       },
        'develop' => {
                       'recommends' => {
-                                        'Dist::Zilla::PluginBundle::Author::ETHER' => '0.049'
+                                        'Dist::Zilla::PluginBundle::Author::ETHER' => '0.050'
                                       },
                       'requires' => {
                                       'Dist::Zilla' => '5.013',
@@ -60,10 +59,8 @@ my $static_prereqs = do { my $x = {
                                       'Dist::Zilla::Plugin::GithubMeta' => '0',
                                       'Dist::Zilla::Plugin::MakeMaker' => '0',
                                       'Dist::Zilla::Plugin::MetaResources' => '0',
-                                      'Dist::Zilla::Plugin::ModuleBuildTiny' => '0.004',
                                       'Dist::Zilla::Plugin::PPPort' => '0',
                                       'Dist::Zilla::Plugin::Prereqs' => '0',
-                                      'Dist::Zilla::Plugin::PruneFiles' => '0',
                                       'Dist::Zilla::Plugin::SurgicalPodWeaver' => '0',
                                       'Dist::Zilla::PluginBundle::Author::ETHER' => '0',
                                       'ExtUtils::MakeMaker::Dist::Zilla::Develop' => '0',

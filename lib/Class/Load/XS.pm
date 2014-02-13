@@ -1,7 +1,9 @@
 package Class::Load::XS;
-{
-  $Class::Load::XS::VERSION = '0.06';
+BEGIN {
+  $Class::Load::XS::AUTHORITY = 'cpan:SARTAK';
 }
+# git description: v0.06-8-ga7f9f53
+$Class::Load::XS::VERSION = '0.07';
 
 use strict;
 use warnings;
@@ -20,9 +22,11 @@ XSLoader::load(
 
 # ABSTRACT: XS implementation of parts of Class::Load
 
-
+__END__
 
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -30,7 +34,7 @@ Class::Load::XS - XS implementation of parts of Class::Load
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
@@ -41,20 +45,32 @@ version 0.06
 This module provides an XS implementation for portions of L<Class::Load>. See
 L<Class::Load> for API details.
 
+=for Pod::Coverage is_class_loaded
+
 =head1 AUTHOR
 
 Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2012 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
   The Artistic License 2.0 (GPL Compatible)
 
+=head1 CONTRIBUTORS
+
+=over 4
+
+=item *
+
+Jesse Luehrs <doy@tozt.net>
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=back
+
 =cut
-
-
-__END__
-
